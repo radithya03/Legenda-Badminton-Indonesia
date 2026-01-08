@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Prestasi 8 Legenda Badminton Indonesia</title>
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f2f6f9;
+}
+
+/* Section Prestasi */
+#prestasi {
+  padding: 40px;
+}
+
+.judul-prestasi {
+  text-align: center;
+  font-size: 32px;
+  color: #003b5c;
+  margin-bottom: 40px;
+}
+
+.prestasi-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.prestasi-card {
+  background-color: #ffffff;
+  border-top: 5px solid #0077b6;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  overflow: hidden;
+}
+
+.prestasi-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+}
+
+.prestasi-card img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+}
+
+.prestasi-card .content {
+  padding: 20px;
+}
+
+.prestasi-card h3 {
+  margin-top: 0;
+  color: #005f8d;
+  font-size: 20px;
+}
+
+.prestasi-card ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.prestasi-card ul li {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 6px;
+}
+</style>
+</head>
+<body>
+   <!-- Tombol Back -->
+<button class="btn-back" onclick="goBack()">⬅ Kembali</button>
+
+<style>
+    .btn-back {
+        position: fixed;
+        bottom: 25px;
+        left: 25px;
+        background: linear-gradient(135deg, #004b75, #0073b1);
+        color: #fff;
+        border: none;
+        padding: 12px 18px;
+        border-radius: 30px;
+        font-size: 14px;
+        font-weight: bold;
+        cursor: pointer;
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.25);
+        transition: all 0.3s ease;
+        z-index: 999;
+    }
+
+    .btn-back:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 12px 20px rgba(0, 0, 0, 0.35);
+        background: linear-gradient(135deg, #0073b1, #004b75);
+    }
+
+    .btn-back:active {
+        transform: scale(0.95);
+    }
+</style>
+
+<script>
+    function goBack() {
+        window.history.back();
+    }
+</script>
+
+<section id="prestasi">
+  <h2 class="judul-prestasi">Prestasi 8 Legenda Badminton Indonesia</h2>
+
+  <div class="prestasi-container">
+
+    <div class="prestasi-card">
+      <img src="https://th.bing.com/th/id/OIP.uKgS1yGPzvIYvTr5iBCP7gHaE8?w=245&h=180&c=7&r=0&o=7&pid=1.7&rm=3" alt="Rudy Hartono">
+      <div class="content">
+        <h3>Rudy Hartono</h3>
+        <ul>
+          <li>Juara All England 8 kali (1968–1974, 1976)</li>
+          <li>Juara Piala Thomas 1970 & 1973</li>
+          <li>Juara Kejuaraan Asia 1969, 1971</li>
+          <li>Legenda tunggal putra dunia</li>
+          <li>Pemain terbaik dunia era 1970-an</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="prestasi-card">
+      <img src="https://th.bing.com/th/id/OIP.RaqKMqzvPl_yuP74G0SsHwHaDg?w=331&h=165&c=7&r=0&o=7&pid=1.7&rm=3" alt="Susi Susanti">
+      <div class="content">
+        <h3>Susi Susanti</h3>
+        <ul>
+          <li>Medali Emas Olimpiade Barcelona 1992</li>
+          <li>Juara Dunia 1993</li>
+          <li>Juara All England 1988, 1989, 1990, 1991</li>
+          <li>Juara Kejuaraan Asia 1985, 1991</li>
+          <li>Pemain bulutangkis putri Indonesia legendaris</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="prestasi-card">
+      <img src="data:image/webp;base64,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" alt="Alan Budikusuma">
+      <div class="content">
+        <h3>Alan Budikusuma</h3>
+        <ul>
+          <li>Medali Emas Olimpiade Barcelona 1992</li>
+          <li>Juara Dunia 1993</li>
+          <li>Juara Piala Thomas 1990 & 1992</li>
+          <li>Juara Indonesia Open 1991</li>
+          <li>Legenda tunggal putra Indonesia</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="prestasi-card">
+      <img src="https://th.bing.com/th/id/OIP.FgbcYT5n9nkrPM5etdF2RwAAAA?w=202&h=159&c=7&r=0&o=7&pid=1.7&rm=3" alt="Taufik Hidayat">
+      <div class="content">
+        <h3>Taufik Hidayat</h3>
+        <ul>
+          <li>Medali Emas Olimpiade Athena 2004</li>
+          <li>Juara Dunia 2005</li>
+          <li>Juara All England 2000</li>
+          <li>Juara Kejuaraan Asia 2000 & 2002</li>
+          <li>Pemilik backhand smash legendaris</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="prestasi-card">
+      <img src="https://th.bing.com/th/id/OIP.jLZ8Uy2G1VNKeuh0knoEAgHaFi?w=236&h=180&c=7&r=0&o=7&pid=1.7&rm=3" alt="Liliyana Natsir">
+      <div class="content">
+        <h3>Liliyana Natsir</h3>
+        <ul>
+          <li>Medali Emas Olimpiade Rio 2016</li>
+          <li>Juara Dunia 2005, 2007, 2009, 2013 (ganda campuran)</li>
+          <li>Juara All England 2006, 2010, 2012, 2013</li>
+          <li>Juara Kejuaraan Asia 2005 & 2009</li>
+          <li>Ratu ganda campuran dunia</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="prestasi-card">
+      <img src="https://th.bing.com/th/id/OIP.SThqQInpskPQpSzzcv8phgHaEK?w=298&h=180&c=7&r=0&o=7&pid=1.7&rm=3" alt="Hendra Setiawan">
+      <div class="content">
+        <h3>Hendra Setiawan</h3>
+        <ul>
+          <li>Medali Emas Olimpiade Beijing 2008</li>
+          <li>Juara Dunia 2007, 2013, 2015, 2019</li>
+          <li>Juara All England 2007, 2014</li>
+          <li>Juara Kejuaraan Asia 2006, 2009</li>
+          <li>Ganda putra terbaik Indonesia</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="prestasi-card">
+      <img src="https://th.bing.com/th/id/OIP.LSP0eHwuUssInFF0wlJk_wHaEK?w=287&h=180&c=7&r=0&o=7&pid=1.7&rm=3" alt="Marcus Gideon">
+      <div class="content">
+        <h3>Marcus F. Gideon</h3>
+        <ul>
+          <li>Ranking 1 Dunia Ganda Putra (2017–2021)</li>
+          <li>Juara All England 2017, 2018, 2019, 2020</li>
+          <li>Juara BWF Super Series</li>
+          <li>Medali Emas Asian Games 2018</li>
+          <li>Minions (ganda putra legendaris)</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="prestasi-card">
+      <img src="data:image/webp;base64,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" alt="Kevin Sanjaya">
+      <div class="content">
+        <h3>Kevin Sanjaya</h3>
+        <ul>
+          <li>Ranking 1 Dunia Ganda Putra (2017–2021)</li>
+          <li>Juara BWF Super Series</li>
+          <li>Juara All England 2017, 2018, 2019, 2020</li>
+          <li>Medali Emas Asian Games 2018</li>
+          <li>Minions (ganda putra legendaris)</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+</body>
+</html>
